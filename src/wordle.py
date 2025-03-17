@@ -72,5 +72,6 @@ class Wordle:
             num_try -= 1
 
         if not success:
-            print_failed(f'Game Over!', end='')
+            print_failed(f'Game Over!',)
+            print()
             print_success(f' The word was "{word}".')
